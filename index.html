@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>おぜう×草餅 平和記念HP</title>
-
-    <link rel="icon" type="image/png" href="https://images-ext-1.discordapp.net/external/f_D4hgxgp327k_Nmz94mTLGhA3_6HouVegYg6UUnzkE/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1335661396930859030/730401417bcfa882014464504f6391af.png?format=webp&quality=lossless" />
-
+  <title>おぜう×草餅 正式同盟記念HP</title>
+  <link rel="icon" type="image/png" href="https://images-ext-1.discordapp.net/external/f_D4hgxgp327k_Nmz94mTLGhA3_6HouVegYg6UUnzkE/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1335661396930859030/730401417bcfa882014464504f6391af.png?format=webp&quality=lossless" />
   <style>
     body {
       margin: 0;
@@ -66,14 +64,6 @@
       transform: scale(1.1) rotate(360deg);
     }
 
-    .profile {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      flex-wrap: wrap;
-      margin-bottom: 60px;
-    }
-
     .card {
       background: rgba(255, 255, 255, 0.1);
       border: 2px solid #fff;
@@ -89,12 +79,6 @@
       font-size: 1.5em;
       border-bottom: 1px solid white;
       padding-bottom: 5px;
-    }
-
-    .section-title {
-      font-size: 2em;
-      margin-top: 40px;
-      text-decoration: underline;
     }
 
     .treaty {
@@ -119,6 +103,12 @@
       line-height: 1.6;
     }
 
+    .section-title {
+      font-size: 2em;
+      margin-top: 40px;
+      text-decoration: underline;
+    }
+
     .history {
       max-width: 700px;
       margin: 40px auto;
@@ -128,6 +118,29 @@
       box-shadow: 0 0 10px #fff;
     }
 
+    .server-buttons {
+      margin: 40px 0;
+    }
+
+    .server-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background-color: #fff;
+      color: #ff4444;
+      border-radius: 30px;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 0 10px #fff;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .server-buttons a:hover {
+      background-color: #ffe6e6;
+      transform: scale(1.05);
+    }
+
     .footer {
       margin-top: 60px;
       font-size: 0.9em;
@@ -135,9 +148,9 @@
       padding-bottom: 40px;
     }
 
-    #visitCount {
-      font-size: 1em;
-      margin-top: 10px;
+    .counter-img {
+      margin-top: 20px;
+      filter: drop-shadow(0 0 5px white);
     }
 
     @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
@@ -154,28 +167,6 @@
       50% { box-shadow: 0 0 30px #fff; }
       100% { box-shadow: 0 0 10px #fff; }
     }
-
-    .petal {
-      position: fixed;
-      top: -50px;
-      width: 20px;
-      height: 20px;
-      background: url('https://upload.wikimedia.org/wikipedia/commons/0/00/Cherry_blossom_icon.svg') no-repeat center/contain;
-      animation: fall 10s linear infinite;
-      pointer-events: none;
-      z-index: 9999;
-    }
-
-    @keyframes fall {
-      0% {
-        transform: translateY(0) rotate(0deg);
-        opacity: 1;
-      }
-      100% {
-        transform: translateY(100vh) rotate(360deg);
-        opacity: 0;
-      }
-    }
   </style>
 </head>
 <body>
@@ -183,7 +174,7 @@
   <header>
     <h1>おぜう×草餅</h1>
     <h2>平和記念ホームページ</h2>
-    <p class="lead">―― これは二つの鯖の信頼が結んだ、奇跡の物語。</p>
+    <p class="lead">―― これは二つの鯖の信頼が結んだ奇跡</p>
   </header>
 
   <div class="image-section">
@@ -191,22 +182,11 @@
     <img src="https://images-ext-1.discordapp.net/external/f_D4hgxgp327k_Nmz94mTLGhA3_6HouVegYg6UUnzkE/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1335661396930859030/730401417bcfa882014464504f6391af.png?format=webp&quality=lossless" alt="おぜう" />
   </div>
 
-  <div class="profile">
-    <div class="card">
-      <h3>草餅</h3>
-      <p>高貴なる気品とユーモアを併せ持つ存在。仲間思いで、おぜうともすぐに打ち解けた。</p>
-    </div>
-    <div class="card">
-      <h3>おぜう</h3>
-      <p>技術力がめっちゃ高い。基本何でもできる！</p>
-    </div>
-  </div>
-
   <div class="treaty">不可侵条約 締結！</div>
 
   <div class="treaty-details">
-    <strong>【条約概要】</strong><br>
-    本日をもって、おぜうと草餅の間に「不可侵条約」を締結。<br>
+    <strong>【同盟概要】</strong><br>
+    おぜうと草餅の間に同盟を締結。<br>
     互いに争わず、尊重し、協力し合うことを誓います。<br><br>
     ・争わないこと<br>
     ・悪口を言わないこと<br>
@@ -221,26 +201,15 @@
     このページは、その記念すべき日を忘れないために存在しています。
   </div>
 
-  <div class="footer">
-    <div id="visitCount">訪問回数：読み込み中…</div><br>
-    &copy; 2025 おぜう×草餅友好同盟 | 平和は、ここから始まる。
+  <div class="server-buttons">
+    <a href="https://discord.gg/FwaKHsF4UY" target="_blank">草餅サーバーへ</a>
+    <a href="https://discord.gg/ozeu-x" target="_blank">おぜうサーバーへ</a>
   </div>
 
-  <!-- 花びら生成JS -->
-  <script>
-    for (let i = 0; i < 30; i++) {
-      const petal = document.createElement('div');
-      petal.className = 'petal';
-      petal.style.left = Math.random() * 100 + 'vw';
-      petal.style.animationDelay = Math.random() * 10 + 's';
-      document.body.appendChild(petal);
-    }
-    const countKey = 'ozekusa-visit-count';
-    let count = localStorage.getItem(countKey) || 0;
-    count++;
-    localStorage.setItem(countKey, count);
-    document.getElementById('visitCount').innerText = `訪問回数：${count} 回`;
-  </script>
+
+    </div><br>
+    &copy; 2025 おぜう×草餅友好同盟 | 2025 Yukkurim. All Rights Reserved.
+  </div>
 
 </body>
 </html>
